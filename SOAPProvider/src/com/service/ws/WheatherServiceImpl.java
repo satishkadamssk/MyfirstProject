@@ -9,7 +9,7 @@ public class WheatherServiceImpl {
 
 	public String getWheather(String str) {
 		if ("Pune".equalsIgnoreCase(str)) {
-			return "25";
+			return "27";
 		} else if ("Mumbai".equalsIgnoreCase(str)) {
 			return "30";
 		}

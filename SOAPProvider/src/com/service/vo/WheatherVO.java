@@ -17,7 +17,4 @@ public class WheatherVO {
 		this.code = code;
 	}
 	
-	
-	
-	
 }

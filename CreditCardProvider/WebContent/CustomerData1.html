@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Transaction From</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="css/style1.css">
+
+
+</head>
+
+<body>
+
+	<div class="info">
+		<h1>Transaction From</h1>
+	</div>
+
+
+
+	<!-- Modal -info -->
+
+	<form method="post"  action="CardTrans" class="steps" >
+		<ul id="progressbar" style="margin-left: 133px;">
+			<li class="active">User Information</li>
+			<li>Aquisition</li>
+			<li>Cultivation</li>
+		</ul>
+
+		<!-- USER INFORMATION FIELD SET -->
+		<fieldset>
+			<h2 class="fs-title">Basic Information</h2>
+			<h3 class="fs-subtitle">We just need some basic information to
+				begin your scoring</h3>
+			<!-- Begin What's Your First Name Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">First
+					Name? *</label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="firstname" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your First Name Field -->
+			<!-- Begin What's Your Last Name Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Last
+					Name? *</label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="lastname" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Last Name Field -->
+
+
+			<!-- Begin What's Your Email Field -->
+			<div class="hs_email field hs-form-field">
+
+				<label for="email-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">
+					E-mail id *</label> <input
+					id="email-99a6d115-5e68-4355-a7d0-529207feb0b3_2983" name="email"
+					required="required" type="email" value="" placeholder=""
+					data-rule-required="true"
+					data-msg-required="Please enter a valid email address."> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Email Field -->
+
+			<!-- Begin What's Your Address Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">City
+					Name *</label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="address" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Address Field -->
+			<!-- Begin What's Your Phone Number Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Phone
+					Number *</label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="phone" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Phone Number Field -->
+
+			<input type="button" data-page="1" name="next"
+				class="next action-button" value="Next" />
+
+		</fieldset>
+
+
+
+		<!-- ACQUISITION FIELD SET -->
+		<fieldset>
+			<h2 class="fs-title">Acquisition of Donors</h2>
+			<h3 class="fs-subtitle">How have you been doing in acquiring
+				donors?</h3>
+
+			<!-- Begin What's Your Shpping details Field -->
+			<div class="hs_firstname field hs-form-field">
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Activity
+					? *</label> <input id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="activity" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Source/Destination details Field -->
+			<!-- ////////// -->
+			<div class="hs_firstname field hs-form-field">
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">
+					<select name="sas"
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">
+						<option>withdrawal</option>
+						<option>deposit</option>
+				</select>
+			</div>
+			<!-- ////////// -->
+
+			<!-- Begin What's Your Amount Field -->
+			<div class="hs_firstname field hs-form-field">
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Amount
+					? *</label> <input id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="amount" required="required" type="number" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Amount details Field -->
+
+
+
+			<!-- Begin What's Your Source/Destination Field -->
+			<div class="hs_firstname field hs-form-field">
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Source/Destination
+					? *</label> <input id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="sd" required="required" type="text" value="" placeholder=""
+					data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Source/Destination Field -->
+
+			<!-- Begin What's Your Comment Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Comment
+				</label> <input id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="comment" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Comment Field -->
+			<input type="button" data-page="2" name="previous"
+				class="previous action-button" value="Previous" /> <input
+				type="button" data-page="2" name="next" class="next action-button"
+				value="Next" />
+		</fieldset>
+
+		<!-- 3rd form -->
+
+
+		<!-- RETENTION FIELD SET -->
+		<fieldset>
+			<h2 class="fs-title">Credit/Debit Card</h2>
+			<h3 class="fs-subtitle">How long can you keep your donors and
+				their donations?</h3>
+			<!-- Begin What's Your Card Number Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Card
+					Number </label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="cardnumber" required="required" type="number" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Credit?debit Field -->
+
+			<!-- Begin What's Your Holder Name Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">card
+					holder Name </label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="cardnumber" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your card Holder name Field -->
+
+
+			<!-- Begin What's Your Card exp date Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">Exp
+					Date </label> <input
+					id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="expdate" required="required" type="text" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Card exp date Field -->
+
+			<!-- Begin What's CVV number date Field -->
+			<div class="hs_firstname field hs-form-field">
+
+				<label for="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983">CVV
+				</label> <input id="firstname-99a6d115-5e68-4355-a7d0-529207feb0b3_2983"
+					name="cvv" required="required" type="number" value=""
+					placeholder="" data-rule-required="true"
+					data-msg-required="Please include your first name"> <span
+					class="error1" style="display: none;"> <i
+					class="error-log fa fa-exclamation-triangle"></i>
+				</span>
+			</div>
+			<!-- End What's Your Cvv number Field -->
+
+
+
+			<input type="button" data-page="5" name="previous"
+				class="previous action-button" value="Previous" /> <input
+				id="submit" class="hs-button primary large action-button next"
+				type="submit" value="Submit">
+		</fieldset>
+
+		
+	</form>
+</body>
+<script
+			src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script
+			src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+		<script
+			src='https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js'></script>
+
+
+
+		<script src="js/index1.js"></script>
+</html>
